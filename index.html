@@ -3,23 +3,33 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Saily eSIM Discount Code - Save 5%</title>
+<title>Saily eSIM Exclusive Discount - 5% OFF</title>
 <meta name="description" content="Use Saily eSIM discount code SPECIAL5 and get 5% off your travel data plan worldwide.">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;600&family=Pacifico&display=swap" rel="stylesheet">
 <style>
-body {font-family: Arial, sans-serif; background:#f9fafb; display:flex; justify-content:center; align-items:center; height:100vh; margin:0;}
-.card {background:#fff; padding:30px; border-radius:20px; text-align:center; box-shadow:0 10px 30px rgba(0,0,0,0.1);}
-.code {font-size:24px; font-weight:bold; margin:15px 0;}
-button {padding:10px 20px; border:none; border-radius:30px; background:#4dabf7; color:#fff; cursor:pointer;}
-a {display:block; margin-top:20px;}
+:root {--primary-blue:#A2D2FF;--accent-pink:#FFC8DD;--text-color:#4A4A4A;--white:#ffffff;}
+body {margin:0;padding:0;font-family:'Outfit',sans-serif;background:linear-gradient(135deg,#fdfcfb 0%,#e2d1c3 100%);display:flex;justify-content:center;align-items:center;min-height:100vh;}
+.card {background:rgba(255,255,255,0.9);backdrop-filter:blur(10px);width:90%;max-width:400px;border-radius:40px;padding:50px 30px;box-shadow:0 20px 40px rgba(0,0,0,0.08);text-align:center;position:relative;}
+.card::after {content:'✈️';position:absolute;top:-20px;right:30px;font-size:40px;}
+h1 {font-family:'Pacifico',cursive;color:var(--primary-blue);}
+.desc {color:#7f8c8d;margin-bottom:30px;}
+.promo-section {border:2px dashed var(--accent-pink);border-radius:25px;padding:25px;margin-bottom:20px;}
+.code {font-size:2rem;font-weight:bold;}
+.copy-btn {background:var(--primary-blue);color:#fff;border:none;padding:12px;border-radius:50px;width:100%;cursor:pointer;}
+.link-btn {display:inline-block;margin-top:10px;text-decoration:none;border-bottom:2px solid var(--accent-pink);}
 </style>
 </head>
 <body>
 <div class="card">
-<h1>Saily eSIM Deal</h1>
-<p>Use the code below to get 5% off</p>
-<div class="code" id="code">SPECIAL5</div>
-<button onclick="copy()">Copy Code</button>
-<a href="https://go.saily.site/aff_c?offer_id=101&aff_id=5079" target="_blank">Claim Deal</a>
+<h1>Hello, Traveler!</h1>
+<p class="desc">Stay connected with <b>Saily eSIM</b>.</p>
+<div class="promo-section">
+<span class="code" id="code">SPECIAL5</span>
+<button class="copy-btn" onclick="copy()">Copy Discount Code</button>
+</div>
+<a href="https://go.saily.site/aff_c?offer_id=101&aff_id=5079" target="_blank" class="link-btn">
+Get 5% Off Your eSIM Now →
+</a>
 </div>
 
 <script>
