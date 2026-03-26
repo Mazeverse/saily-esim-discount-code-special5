@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://saily-esim-discount-code-special5.vercel.app/sitemap.xml
